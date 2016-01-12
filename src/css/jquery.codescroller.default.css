@@ -1,0 +1,38 @@
+.codescroller {
+		
+}
+
+.codescroller-container {
+	position: absolute; 
+	overflow: hidden; 
+}
+
+.codescroller-scrollbar {
+	background-color: #CCC; 
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;		
+}
+
+.codescroller-scroller {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.codescroller-ruler {
+	cursor: pointer;
+	position: absolute;
+	width: 100%;
+	background-color: #666;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.codescroller-text {
+	position: absolute;
+}
